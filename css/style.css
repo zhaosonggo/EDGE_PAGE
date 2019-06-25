@@ -32,34 +32,14 @@ body{
 	margin-top: 0;
 }
 
-.txtb{
-	display: block;
-	box-sizing: border-box;
-	width:240px;
-	background: #ffffff28;
-	border-radius: 1px solid white;
-	padding:10px 20px;
-	color:white;
-	outline: none;
-	margin: 10px 0;
-	border-radius: 6px;
-	text-align: center;
-}
-.login-btn{
-	width: 240px;
-	background: #2c3e50;
-	border:0;
-	color: white;
-	padding: 10px;
-	border-radius: 6px;
-	cursor: pointer;
-}
+
+
 
 .hide-login-btn{
 	color:#000;
 	position: absolute;
 	top: 40px;
-	right: 40px;
+	right: 2%;
 	cursor: pointer;
 	font-size: 24px;
 	opacity: .7;
@@ -74,7 +54,7 @@ body{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	color: white;
+	color: #1cbfca;
 	border:2px solid;
 	cursor: pointer;
 	padding: 10px;
