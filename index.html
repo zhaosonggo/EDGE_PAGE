@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login border</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="js/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-3.3.0.min.js"></script>
+</head>
+<body>
+	<div class="show-login-btn"><i class="fa fa-mail-forward"></i>Show Login Forms</div>
+	<div class="login-box">
+		<div class="hide-login-btn">
+				<i class="fa fa-times"></i>
+			</div>
+		<form class="login-form" method="post" action="#">
+			
+			<h1>Welcome</h1>
+			<input class="txtb" type="text" name="" placeholder="Username">
+			<input class="txtb" type="password" name="" placeholder="password">
+			<input class="login-btn" type="submit" name="" value="Login">
+		</form>
+	</div>
+
+	<script type="text/javascript">
+		
+		$(".show-login-btn").on("click",function(){
+
+			$(".login-box").toggleClass("showed");
+		});
+
+		$(".hide-login-btn").on("click",function(){
+
+			$(".login-box").toggleClass("showed");
+		});
+	</script>
+</body>
+</html>
